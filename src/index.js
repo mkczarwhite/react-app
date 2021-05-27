@@ -8,6 +8,7 @@ ReactDOM.render(
   <React.StrictMode>
     <h1>Search Your Favorite Travel Destination!</h1>
     <Weather />
+    <p><a href="https://github.com/mkczarwhite/react-app" target="_blank" rel="noreferrer">Open source code</a> by Michelle White</p>
   </React.StrictMode>,
   document.getElementById('root')
 );
