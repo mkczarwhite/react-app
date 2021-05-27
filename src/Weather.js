@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import axios from "axios";
+import './Weather.css';
 
 export default function Weather(){
     const [city, setCity] = useState("");
@@ -27,7 +28,7 @@ export default function Weather(){
     setCity(event.target.value);
   }
   let form = (
-    <form onSubmit={handleSubmit}>
+    <form className="weather" onSubmit={handleSubmit}>
       <input
         type="search"
         placeholder="Enter the city!"

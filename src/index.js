@@ -6,6 +6,7 @@ import Weather from "./Weather";
 
 ReactDOM.render(
   <React.StrictMode>
+    <h1>Search Your Favorite Travel Destination!</h1>
     <Weather />
   </React.StrictMode>,
   document.getElementById('root')
