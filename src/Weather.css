@@ -1,3 +1,7 @@
-form.weather {
-  margin: 0 auto;
+.weather {
+  margin: 60px auto;
+  padding-left: 100px;
+}
+ul {
+  list-style-type: none;
 }
