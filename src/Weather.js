@@ -53,6 +53,12 @@ export default function Weather(){
             <img src={weather.icon} alt="Weather Icon" />
           </li>
         </ul>
+        <div className="row">
+          <div className="col-sm-2">
+            Monday
+          </div>
+      
+        </div>
       </div>
     );
   } else {

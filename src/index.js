@@ -9,7 +9,7 @@ ReactDOM.render(
   <React.StrictMode>
     <h1>Search Your Favorite Travel Destination!</h1>
     <div className="weather"><Weather /></div>
-    <p><a href="https://github.com/mkczarwhite/react-app" target="_blank" rel="noreferrer">Open source code</a> by Michelle White</p>
+    <p><a href="https://github.com/mkczarwhite/react-app" target="_blank" rel="noreferrer" className="coding">Open source code</a> by Michelle White</p>
   </React.StrictMode>,
   document.getElementById('root')
 );
