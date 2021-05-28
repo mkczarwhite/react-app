@@ -44,6 +44,7 @@ export default function Weather(){
       <div className="weather">
         {form}
         <ul>
+          <li>{city}</li>
           <li>{weather.description}</li>
           <li>Temperature: {Math.round(weather.temperature)}ºF</li>
           <li>Wind: {Math.round(weather.wind)}mph</li>
