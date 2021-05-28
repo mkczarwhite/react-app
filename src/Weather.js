@@ -57,7 +57,24 @@ export default function Weather(){
           <div className="col-sm-2">
             Monday
           </div>
-      
+          <div className="col-sm-2">
+            Tuesday
+          </div>
+          <div className="col-sm-2">
+            Wednesday
+          </div>
+          <div className="col-sm-2">
+            Thursday
+          </div>
+          <div className="col-sm-2">
+            Friday
+          </div>
+          <div className="col-sm-2">
+            Saturday
+          </div>
+          <div className="col-sm-2">
+            Sunday
+          </div>
         </div>
       </div>
     );
