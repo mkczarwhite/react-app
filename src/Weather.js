@@ -124,6 +124,26 @@ export default function Weather(){
       />
           </div>
         </div>
+          <div className="row">
+          <div className="col-sm-2">
+           45º
+          </div>
+          <div className="col-sm-2">
+             57º
+          </div>
+          <div className="col-sm-2">
+            78º
+          </div>
+          <div className="col-sm-2">
+            65º
+          </div>
+          <div className="col-sm-2">
+            66º
+          </div>
+          <div className="col-sm-2">
+            71º
+          </div>
+        </div>
       </div>
       
     );
