@@ -41,7 +41,7 @@ export default function Weather(){
 
   if (loaded) {
     return (
-      <div>
+      <div className="weather">
         {form}
         <ul>
           <li>{weather.description}</li>
