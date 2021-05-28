@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import axios from "axios";
 import './Weather.css';
+import ReactAnimatedWeather from 'react-animated-weather';
 
 export default function Weather(){
     const [city, setCity] = useState("");
@@ -55,28 +56,76 @@ export default function Weather(){
         </ul>
         <div className="row">
           <div className="col-sm-2">
-            Monday
+            Mon
           </div>
           <div className="col-sm-2">
-            Tuesday
+            Tues
           </div>
           <div className="col-sm-2">
-            Wednesday
+            Wed
           </div>
           <div className="col-sm-2">
-            Thursday
+            Thu
           </div>
           <div className="col-sm-2">
-            Friday
+            Fri
           </div>
           <div className="col-sm-2">
-            Saturday
+            Sat
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-sm-2">
+             <ReactAnimatedWeather
+        icon="CLEAR_NIGHT"
+        color="grey"
+        size="112"
+        animate="true"
+      />
           </div>
           <div className="col-sm-2">
-            Sunday
+             <ReactAnimatedWeather
+        icon="SLEET"
+        color="blue"
+        size="112"
+        animate="true"
+      />
+          </div>
+          <div className="col-sm-2">
+            <ReactAnimatedWeather
+        icon="FOG"
+        color="purple"
+        size="112"
+        animate="true"
+      />
+          </div>
+          <div className="col-sm-2">
+            <ReactAnimatedWeather
+        icon="FOG"
+        color="purple"
+        size="112"
+        animate="true"
+      />
+          </div>
+          <div className="col-sm-2">
+            <ReactAnimatedWeather
+        icon="SLEET"
+        color="blue"
+        size="112"
+        animate="true"
+      />
+          </div>
+          <div className="col-sm-2">
+             <ReactAnimatedWeather
+        icon="CLEAR_NIGHT"
+        color="grey"
+        size="112"
+        animate="true"
+      />
           </div>
         </div>
       </div>
+      
     );
   } else {
     return form;
